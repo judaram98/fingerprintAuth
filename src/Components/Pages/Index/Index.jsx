@@ -1,18 +1,6 @@
-import { useVisitorData } from "@fingerprintjs/fingerprintjs-pro-react";
-import { useEffect } from "react";
 import Logo from "../../Assets/Images/Logo.png";
 
 const Index = () => {
-  // useEffect(() => {
-  //   FingerprintJS.load({
-  //     token: BROWSER_API_KEY,
-  //   })
-  //     .then((fp) => fp.get())
-  //     .then((result) => {
-  //       setVisitorId(result.visitorId);
-  //       setIsLoading(false);
-  //     });
-  // }, []);
   let HtmlIndex = (
     <form
       action=""
